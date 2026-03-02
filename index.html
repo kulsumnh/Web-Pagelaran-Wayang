@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webway - The Legend of Situ Bagendit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/src/img/logo 13.png" alt="logo" style="width: 35px; height: 35px;">
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#event">Event</a></li>
+                <li><a href="#documentation">Documentation</a></li>
+                <li><a href="#closing">Closing</a></li>
+            </ul>
+            <!-- Hamburger Menu -->
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Home Section -->
+    <section id="home">
+        <div class="background-image">
+            <div class="glass">
+                <h2>The Legend of Situ Bagendit</h2>
+                <p>A traditional wayang performance based on the legend of Situ Bagendit. Revealing the consequences of greed and the meaning of compassion.</p>
+                <a href="#overview" class="explore-btn">Jelajahi Cerita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <div class="container">
+            <h2 class="section-title">Overview</h2>
+            <div class="overview-content">
+                <p>Pagelaran wayang <strong>Situ Bagendit</strong> diselenggarakan sebagai bentuk ujian praktik kelas XII SMAN yang mengintegrasikan beberapa mata pelajaran, yaitu Seni Budaya, PKWU, Bahasa Indonesia, Bahasa Sunda, dan Bahasa Inggris. Melalui pagelaran ini, siswa-siswi dalam satu kelas bekerja sama menyatukan ide, kreativitas, dan keterampilan untuk menghadirkan sebuah pertunjukan wayang yang utuh dan bermakna.</p>
+                <br>
+                <p>Cerita <strong>Situ Bagendit</strong> dipilih karena mengandung nilai moral dan pesan kehidupan yang relevan, seperti keserakahan, kepedulian sosial, serta akibat dari sikap tidak peduli terhadap sesama. Pagelaran ini bertujuan untuk melestarikan budaya wayang sekaligus melatih kerja sama, tanggung jawab, dan kemampuan berkomunikasi para siswa dalam sebuah proyek kolaboratif.</p>
+                <br>
+                <p>Selain pagelaran wayang, pembuatan website ini juga merupakan bagian dari ujian praktik mata pelajaran Informatika kelas XII-5. Website ini berfungsi sebagai media dokumentasi dan informasi, sekaligus sebagai sarana untuk memperkenalkan pagelaran wayang <strong>Situ Bagendit</strong> kepada masyarakat secara digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process">
+       <div class="container">
+           <h2 class="section-title">Process</h2>
+           <div class="process-container">
+           <div class="process-text">
+                <p>Pagelaran wayang ini melalui proses yang panjang dan penuh kerja sama. Persiapan dimulai dari pembuatan wayang menggunakan bubur kertas yang dibentuk dan dihias dengan detail agar menyerupai karakter aslinya. Selain itu, berbagai properti pendukung juga dibuat untuk melengkapi suasana panggung. Tim talent dan tim musik kemudian melakukan latihan secara rutin untuk menyelaraskan alur cerita, dialog, dan iringan musik agar pertunjukan berjalan dengan baik. Seluruh proses ini tidak terlepas dari usaha, kekompakan, dan kerja sama yang solid dari siswa-siswi kelas XII-5 sehingga pagelaran dapat terlaksana dengan maksimal.</p>
+            </div>
+            <div class="process-video">
+                <video controls width="100%">
+                    <source src="/src/video/TRAILER XII-5.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+         </div>
+        
+        <!-- Water Waves -->
+        <div class="wave-container">
+            <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,64 C240,96 480,32 720,64 C960,96 1200,32 1440,64 L1440,120 L0,120 Z" fill="#1e3a8a" opacity="0.5"></path>
+            </svg>
+            <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,32 C240,64 480,0 720,32 C960,64 1200,0 1440,32 L1440,120 L0,120 Z" fill="#2563eb" opacity="0.5"></path>
+            </svg>
+            <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,48 C240,80 480,16 720,48 C960,80 1200,16 1440,48 L1440,120 L0,120 Z" fill="#3b82f6" opacity="0.5"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section id="characters">
+        <div class="container">
+            <h2 class="section-title">Characters</h2>
+            <div class="carousel-container">
+                <button class="carousel-btn prev" id="prevBtn">‹</button>
+                <div class="carousel-wrapper">
+                    <div class="carousel" id="carousel">
+                        <!-- Character 1 -->
+                        <div class="character-card">
+                            <div class="character-img">
+                                <img src="/src/img/nyi.png" alt="Nyi Endit" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22300%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2220%22 fill=%22%23DAA520%22%3ENyi Endit%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <h3 class="character-name">Nyi Endit</h3>
+                            <p class="character-desc">Seorang janda kaya yang terkenal kikir dan tidak peduli pada penderitaan orang lain. Kekayaannya yang melimpah membuatnya sombong dan kehilangan rasa empati terhadap sesama.</p>
+                        </div>
+                        
+                        <!-- Character 2 -->
+                        <div class="character-card">
+                            <div class="character-img">
+                                <img src="/src/img/kakek.png" alt="Kakek Tua" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22300%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2220%22 fill=%22%23DAA520%22%3EKakek Tua%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <h3 class="character-name">Kakek Tua</h3>
+                            <p class="character-desc">Seorang kakek tua yang meminta seteguk air kepada Nyi Endit. Penolakan kasar terhadapnya menjadi titik balik yang mengubah segalanya dalam kisah ini.</p>
+                        </div>
+                        
+                        <!-- Character 3 -->
+                        <div class="character-card">
+                            <div class="character-img">
+                                <img src="/src/img/penduduk.png" alt="Penduduk Desa" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22300%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2220%22 fill=%22%23DAA520%22%3EPenduduk Desa%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <h3 class="character-name">Penduduk Desa</h3>
+                            <p class="character-desc">Masyarakat desa yang hidup sederhana dan saling tolong-menolong. Mereka menjadi saksi atas keserakahan Nyi Endit dan peristiwa besar yang terjadi setelahnya.</p>
+                        </div>
+                        
+                        <!-- Character 4 -->
+                        <div class="character-card">
+                            <div class="character-img">
+                                <img src="/src/img/pembantu.png" alt="Pembantu" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22300%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2220%22 fill=%22%23DAA520%22%3EPembantu Nyi Endit%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <h3 class="character-name">Pembantu Nyi Endit</h3>
+                            <p class="character-desc">Pembantu Nyi Endit merupakan sosok yang setia dan patuh kepada majikannya. Sebagai seorang pembantu, ia menjalankan perintah dengan penuh tanggung jawab dan menghormati Nyi Endit sebagai atasannya.</p>
+                    </div>
+
+                </div>
+                <button class="carousel-btn next" id="nextBtn">›</button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <div class="container">
+            <h2 class="section-title">Schedule</h2>
+            <div class="schedule-card">
+                <div class="schedule-icon">📅</div>
+                <div class="schedule-time">10.00 - 10.30</div>
+                <div class="schedule-date">12 Februari 2026</div>
+                <div class="schedule-location">📍 Lapangan SMAN 13 Bandung</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Section -->
+    <section id="event">
+        <div class="container">
+            <h2 class="section-title">Event</h2>
+            <div class="event-grid">
+                <div class="event-item">
+                    <div class="event-img">
+                        <img src="/src/img/stand makanan.jpg" alt="Stand Makanan" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2216px%22 fill=%22%23DAA520%22%3EStand Makanan%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Stand Makanan</h3>
+                        <p class="event-desc">Stand makanan dikelola oleh tim bazaar yang menyajikan cuanki yang diberi nama Cuanyuk sebagai menu utama, dengan cita rasa gurih dan hangat yang cocok dinikmati saat acara berlangsung. Selain itu, tersedia juga es teh manis yang segar sebagai pelengkap. Serta hiasan stand oleh divisi artistik.</p>
+                    </div>
+                </div>
+                
+                <div class="event-item">
+                    <div class="event-img">
+                        <img src="/src/img/pementasan.jpg" alt="Pementasan" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2216px%22 fill=%22%23DAA520%22%3EKarya Seni%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Pementasan Wayang</h3>
+                        <p class="event-desc">Pementasan wayang ini dibawakan oleh tim talent yang menampilkan kisah legenda Situ Bagendit melalui seni pertunjukan tradisional. Acara ini juga dimeriahkan dengan penampilan musik dari tim musik yang menghadirkan suasana lebih hidup dan mendukung jalannya pertunjukan.</p>
+                    </div>
+                </div>
+                
+                <div class="event-item">
+                    <div class="event-img">
+                        <img src="/src/img/stand pameran.JPG" alt="Stand Pameran" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2216px%22 fill=%22%23DAA520%22%3EStand Bazaar%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Stand Pameran</h3>
+                        <p class="event-desc">Stand pameran menampilkan karya siswa-siswi kelas XII-5 berupa tas bergambar batik dan wayang, serta lukisan batik karya siswa kelas 10. Berbagai karya ini menjadi bentuk apresiasi terhadap seni dan kreativitas dalam melestarikan budaya. Desain stand pameran juga dirancang oleh divisi artistik kelas XII-5 sehingga tampil selaras dengan tema pagelaran wayang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="documentation">
+        <div class="container">
+            <h2 class="section-title">Documentation</h2>
+            <div class="doc-gallery-wrapper">
+                <div class="doc-gallery">
+                    <div class="doc-item">
+                        <img src="/src/img/1.png" alt="Pembuatan Properti" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23DAA520%22%3ELatihan Dalang%3C/text%3E%3C/svg%3E'">
+                        <div class="doc-overlay">
+                            <span>Pembuatan Properti</span>
+                        </div>
+                    </div>
+                    
+                    <div class="doc-item">
+                        <img src="/src/img/2.JPG" alt="Pembuatan Makanan" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23DAA520%22%3EPersiapan Panggung%3C/text%3E%3C/svg%3E'">
+                        <div class="doc-overlay">
+                            <span>Pembuatan Makanan</span>
+                        </div>
+                    </div>
+                    
+                    <div class="doc-item">
+                        <img src="/src/img/3.png" alt="Latihan Dalang" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23DAA520%22%3ELatihan Gamelan%3C/text%3E%3C/svg%3E'">
+                        <div class="doc-overlay">
+                            <span>Latihan Dalang</span>
+                        </div>
+                    </div>
+                    
+                    <div class="doc-item">
+                        <img src="/src/img/4.JPG" alt="Jaga stand Makanan" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23DAA520%22%3EPersiapan Wayang%3C/text%3E%3C/svg%3E'">
+                        <div class="doc-overlay">
+                            <span>Jaga Stand Makanan</span>
+                        </div>
+                    </div>
+                    
+                    <div class="doc-item">
+                        <img src="/src/img/5.JPG" alt="Pameran" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23DAA520%22%3EPameran%3C/text%3E%3C/svg%3E'">
+                        <div class="doc-overlay">
+                            <span>Pameran</span>
+                        </div>
+                    </div>
+                    
+                    <div class="doc-item">
+                        <img src="/src/img/6.JPG" alt="Momen Pagelaran" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23DAA520%22 opacity=%220.2%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23DAA520%22%3EBehind The Scene%3C/text%3E%3C/svg%3E'">
+                        <div class="doc-overlay">
+                            <span>Momen Pagelaran</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="scroll-hint">← Geser untuk melihat lebih banyak →</p>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section id="closing">
+        <div class="container">
+            <div class="closing-content">
+                <h2 class="closing-title">Terima Kasih</h2>
+                <div class="closing-ornament">✦</div>
+                <p class="closing-text">Terima kasih atas apresiasi dan dukungan terhadap pagelaran wayang ini. Terima kasih juga telah mengunjungi website kami. Semoga kegiatan ini memberikan kesan yang baik dan bermakna.</p>
+                <br>
+                <p class="closing-signature">Salam Budaya</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-text">© 2026 Presented by Kulsum and Dwi</div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/kulsum_nh/" target="_blank">@kulsum_nh</a>
+                <span class="separator">•</span>
+                <a href="https://www.instagram.com/dwinndhaaprlian/" target="_blank">@dwinndhaaprlian</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
